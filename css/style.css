@@ -1,0 +1,235 @@
+.all-content {
+  /* background-color: #1e202b; */
+  height: 100vh;
+  
+}
+.navbar {
+  background-color: #1e202b;
+  padding-bottom:2.8%;
+}
+.theHeader{
+    color: white;
+}
+.small {
+  font-size: 12px;
+  font-weight: 100;
+  list-style: inherit;
+}
+.logo {
+  width: 70%;
+  position: absolute;
+  left: -70%;
+  top: 15%;
+}
+span{
+    font-size: 10px;
+    color: #BFC1BF;
+}
+.nav-item a:hover {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+.nav-item a {
+  border: 2px solid transparent;
+  border-radius: 28px;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+.conts a{
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+.importantContent{
+    /* background-image: url(images/banner.png); */
+    background-repeat: no-repeat;
+} 
+/* #################### Search City################# # */
+.find-location{
+    position: relative;
+    margin-bottom: 70px;
+    
+}
+.search-input {
+    
+    width: 85%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+form input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+.search-button{
+    position: absolute;
+    top: 70px;
+    right: 134px;
+    bottom: 8px;
+    padding: 13px 40px;
+    border: none;
+    background: #009ad8;
+    color: white;
+} 
+/* #######################cards################## */
+.allBoxs{
+display:flex ;
+justify-content: center;
+}
+
+.box1 {
+    background-color: #323544;
+    width: 30%;
+}
+.box3 {
+    background-color: #323544;
+    width: 30%;
+}
+.card-header{
+   background-color:#2D303D ; 
+}
+.box2{
+    width: 30%;
+    background-color: #262936;
+}
+.theDifferent{
+    background-color: #222530;
+}
+.degree{
+    font-size: 4.7142857143em;
+    color: white;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+}
+.number{
+    
+    font-size: 4.4rem;
+    margin-left: 14px;
+    /* display: inline-block; */
+    vertical-align: middle;
+    
+}
+
+.weatherIcon img{
+    width: 150%;
+    font-size: 6rem;
+}
+.weatherIcon {
+margin-right: 4%;
+}
+h6{
+    color: #8E8F94;
+}
+.cityLocation{
+    color: #8E8F94;
+    font-size: x-large;
+}
+.custom{
+    color: #019CD8;
+}
+.umbrella{
+    color: #019CD8;
+}
+.wind{
+    color: #019CD8;
+}
+.direction{
+    color: #019CD8;
+}
+.forecastContent2{
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.weatherIcon2{
+    margin-bottom: 20px;
+}
+.number2{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.small{
+    font-size: 1.1428571429em;
+    color: white;
+}
+.customer{
+    color: #019CD8;
+    margin-top: 25px;
+}
+.forecastContent3{
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.weatherIcon3{
+    margin-bottom: 20px;
+}
+.number3{
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+.small2{
+    font-size: 1.1428571429em;
+    color: white;
+}
+.customer2{
+    color: #019CD8;
+    margin-top: 25px;
+}
+
+/* #######################################footer################## */
+
+.find-email{
+   position: relative;
+    margin-bottom: 70px;
+}
+.search_input {
+    width: 75% ;
+    padding: 10px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+}
+.search_button{
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    padding: 10px 35px;
+    border: none;
+    background: #009ad8;
+    color: white;
+}
+.social-media{
+    display: inline-block;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #019CD8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+
+.icon:hover{
+    background-color:#019CD8 ;
+}
+.icon:hover .fa-brands{
+    color: white;
+}
+.paragraf{
+    font-size: 14px;
+    color: #BFC1BF;
+   
+}

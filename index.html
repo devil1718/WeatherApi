@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body style="background-color: #1e202b">
+    <div class="all-content">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container mt-4">
+          <div class="ms-5">
+            <a
+              class="branding text-decoration-none text-white position-relative"
+              href="#"
+            >
+              <img src="images/logo@2x.png" alt="" class="logo" />
+              <div class="logo-type ms-2">
+                <h6 class="theHeader mb-0">Weather</h6>
+                <span>tagline goes here</span>
+              </div>
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-bg px-4 me-5">
+              <li class="nav-item conts">
+                <a class="nav-link ps-4 pe-4 text-center" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 text-center" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 text-center" href="#"
+                  >Live cameras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 text-center" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-4 pe-4 text-center" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="importantContent"
+        style="background-image: url(images/banner.png)"
+      >
+        <div class="container">
+          <form class="find-location">
+            <input
+              type="search"
+              placeholder="Find your location ..."
+              id="search"
+              class="search-input"
+            />
+            <input
+              type="button"
+              id="submit"
+              value="Find"
+              class="search-button"
+            />
+          </form>
+        </div>
+
+        <div class="container">
+          <div
+            class="allBoxs w-100 "
+            id="allBoxs"
+          ></div>
+        </div>
+      </div>
+      <footer style="background-color: #262936" class="my-5">
+        <div class="container">
+          <form class="find-email pt-5">
+            <div class="d-inline-block w-75">
+              <input
+                type="search"
+                placeholder="Enter your email to subscribe ..."
+                id="7ambozo"
+                class="search_input"
+              />
+              <input
+                type="button"
+                id="mano"
+                value="subscribe"
+                class="search_button"
+              />
+            </div>
+            <div class="social-media ">
+              <a class="icon" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a class="icon" href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a class="icon" href="#">
+                <i class="fa-brands fa-google-plus"></i>
+              </a>
+              <a class="icon" href="#">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </div>
+          </form>
+          <p class="paragraf pb-5">
+            Copyright 2014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

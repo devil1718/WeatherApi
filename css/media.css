@@ -1,0 +1,340 @@
+@media only screen and (min-width: 1400px) and (max-width: 1560px) {
+  .search_button {
+    position: absolute;
+    right: 44%;
+    top: 54%;
+    padding: 10px 35px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* For large Sereen */
+  .find-location {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .search-input {
+    width: 85%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .search-button {
+    position: absolute;
+    top: 63px;
+    right: 118px;
+    bottom: 6px;
+    padding: 14px 40px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+
+  /* ######################################################## */
+  .find-email {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .search_input {
+    width: 90%;
+    padding: 18px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .search_button {
+    position: absolute;
+    right: 32.6%;
+    top: 40%;
+    padding: 14px 31px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+  .social-media {
+    display: inline-block;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #019cd8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+  }
+
+  .icon:hover {
+    background-color: #019cd8;
+  }
+  .icon:hover .fa-brands {
+    color: white;
+  }
+  .paragraf {
+    font-size: 14px;
+    color: #bfc1bf;
+  }
+}
+
+@media only screen and (min-width: 986px) and (max-width: 1199px) {
+  .search-button {
+    position: absolute;
+    top: 52px;
+    right: 98px;
+    bottom: 5px;
+    padding: 16px 39px;
+    border: none;
+    background: rgb(0, 154, 216);
+    color: white;
+  }
+  /* ################################################################### */
+  .box1 {
+    background-color: #323544;
+    width: 33%;
+  }
+  .box3 {
+    background-color: #323544;
+    width: 33%;
+  }
+  .box2 {
+    width: 33%;
+    background-color: #262936;
+  }
+
+  /* ################################################################ */
+  .find-email {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .search_input {
+    width: 80%;
+    padding: 10px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .search_button {
+    position: absolute;
+    right: 40.6%;
+    top: 45%;
+    padding: 10px 35px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+  .social-media {
+    display: inline-block;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #019cd8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+  }
+
+  .icon:hover {
+    background-color: #019cd8;
+  }
+  .icon:hover .fa-brands {
+    color: white;
+  }
+  .paragraf {
+    font-size: 14px;
+    color: #bfc1bf;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 985px) {
+  .search-input {
+    width: 89%;
+    padding: 16px 50px 14px 41px;
+    background: #1e202b;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .search-button {
+    position: absolute;
+    top: 40px;
+    right: 47px;
+    bottom: 4px;
+    padding: 11px 38px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+  /* ##################################################################3 */
+  .box1 {
+    background-color: #323544;
+    width: 33%;
+  }
+  .box3 {
+    background-color: #323544;
+    width: 33%;
+  }
+  .box2 {
+    width: 33%;
+    background-color: #262936;
+  }
+  /* ################################################################ */
+  .find-email {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .search_input {
+    width: 138%;
+    padding: 10px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .search_button {
+    position: absolute;
+    right: -3%;
+    top: 32%;
+    padding: 10px 35px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #019cd8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+  }
+
+  .icon:hover {
+    background-color: #019cd8;
+  }
+  .icon:hover .fa-brands {
+    color: white;
+  }
+  .paragraf {
+    font-size: 14px;
+    color: #bfc1bf;
+  }
+}
+
+@media only screen and (min-width: 499px) and (max-width: 780px) {
+  .search-input {
+    width: 100%;
+    padding: 13px 47px 15px 21px;
+    background: #1e202b;
+    color: white;
+    margin-left: 0%;
+    margin-top: 7%;
+  }
+
+  .search-button {
+    position: absolute;
+    top: 41px;
+    right: 6px;
+    bottom: 5px;
+    padding: 10px 40px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+
+  /* ############################################################### */
+  .allBoxs {
+    display: block;
+    justify-content: center;
+  }
+  .box1 {
+    background-color: #323544;
+    width: 100%;
+    display: block;
+  }
+  .box3 {
+    background-color: #323544;
+    width: 100%;
+    display: block;
+  }
+  .box2 {
+    width: 100%;
+    background-color: #262936;
+    display: block;
+  }
+
+  /* ############################################################## */
+
+  .find-email {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .search_input {
+    width: 138%;
+    padding: 10px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .search_button {
+    position: absolute;
+    right: -3%;
+    top: 32%;
+    padding: 10px 35px;
+    border: none;
+    background: #009ad8;
+    color: white;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #019cd8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+  }
+
+  .icon:hover {
+    background-color: #019cd8;
+  }
+  .icon:hover .fa-brands {
+    color: white;
+  }
+  .paragraf {
+    font-size: 14px;
+    color: #bfc1bf;
+  }
+}
